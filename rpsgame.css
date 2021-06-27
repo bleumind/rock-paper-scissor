@@ -1,0 +1,114 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 30px;
+    border-bottom: 2px solid rgb(189, 189, 189);
+    padding-bottom: 15px;
+  }
+  .title {
+      text-align: center;
+  }
+  html {
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(45deg, rgb(144, 4, 224), rgb(38, 194, 255));
+  }
+  #Scissor {
+    width: 33%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    margin: auto;
+  }
+
+  #Rock {
+    width: 33%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    position: auto;
+  }
+  #Paper {
+    width: 33%;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    position: auto;
+  }
+  .weapon {
+    text-align: center;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#Scissor:hover {
+    background-color: rgb(252, 55, 21);
+}
+#Rock:hover {
+    background-color: rgb(252, 55, 21)
+}
+#Paper:hover {
+    background-color: rgb(252, 55, 21)
+}
+#Scissor:click {
+    background-color: rgb(252, 55, 21);
+}
+.results {
+    text-align:center;
+    position:fixed;
+    left: 15%;
+    bottom: 40%;
+    display: table-column;
+    width: 50px;
+    height: 50px;
+    font-size: 1.7em;
+}
+.picks {
+    float: right;
+}
+.computer {
+    text-align: center;
+    font-weight: bold;
+    position:fixed;
+    right: 42%;
+    bottom: 20%;
+    width: 230px;
+    height: 100px;
+    font-size: 1.7em;
+}
+.you {
+    text-align: center;
+    font-weight: bold;
+    position:fixed;
+    right: 42%;
+    bottom: 40%;
+    width: 230px;
+    height: 100px;
+    font-size: 1.7em;
+}
+#you {
+    padding: 5px;
+    color: rgb(221, 221, 221);
+}
+#computer {
+    color: rgb(221, 221, 221);
+}
+#decision {
+    color: rgb(221, 221, 221);
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    right: 42%;
+    bottom: 0%;
+    width: 230px;
+    height: 100px;
+    font-size: 2em;
+}

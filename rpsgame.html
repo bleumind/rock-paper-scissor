@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="rpsgame.css">
+</head>
+<body class="background">
+    <h1>Play The Game: Rock Paper Scissor</a></h1>
+
+    <div class="results">
+        <div class="wins">Wins: <div id="wins">0</div></div>
+        <div class="losses">Losses: <div id="losses">0</div></div>
+        <div class="draws">Draws: <div id="draws">0</div></div>
+    </div>
+
+    <div class="choices">
+        <p class="weapon"><strong>Choose Your Weapon!</strong></p>
+        <button onclick="game2()" id="Rock" class="rock" value="rock">Rock</button>
+        <button onclick="game3()" id="Paper" class="paper" value="paper">Paper</button>
+        <button onclick="game1()" id="Scissor" class="scissor" value="scissor">Scissor</button>
+    </div>
+    <div id="container">
+        <div class="computer">Computer Picked: <div id="computer">...</div></div>
+        <div class="you">You Picked: <div id="you"></div></div>
+        <div id="decision">0</div>
+    </div>
+    <script src="rpsgame.js"></script>
+</body>
+</html>
