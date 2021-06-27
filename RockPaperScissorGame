@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Rock-Paper-Scissor</title>
+    <style>
+        h1 {
+          color: white;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 40px;
+          margin: 30px;
+          border-bottom: 2px solid rgb(189, 189, 189);
+          padding-bottom: 15px;
+        }
+        .title {
+            text-align: center;
+        }
+        html {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(45deg, rgb(144, 4, 224), rgb(38, 194, 255));
+        }
+        #Scissor {
+          width: 33%;
+          font-size: 20px;
+          font-weight: bold;
+          height: 70px;
+          background-color: tomato;
+          color: white;
+          margin: auto;
+        }
+
+        #Rock {
+          width: 33%;
+          font-size: 20px;
+          font-weight: bold;
+          height: 70px;
+          background-color: tomato;
+          color: white;
+          position: auto;
+        }
+        #Paper {
+          width: 33%;
+          font-size: 20px;
+          font-weight: bold;
+          height: 70px;
+          background-color: tomato;
+          color: white;
+          position: auto;
+        }
+        .weapon {
+            text-align: center;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 30px;
+        }
+        #Scissor:hover {
+            background-color: rgb(252, 55, 21);
+        }
+        #Rock:hover {
+            background-color: rgb(252, 55, 21)
+        }
+        #Paper:hover {
+            background-color: rgb(252, 55, 21)
+        }
+        #Scissor:click {
+            background-color: rgb(252, 55, 21);
+        }
+        .results {
+            text-align:center;
+            display:table;
+            width: 50px;
+            height: 50px;
+        }
+        .picks {
+            float: right;
+        }
+
+    </style>
+</head>
+<body class="background">
+    <h1>Play The Game: Rock Paper Scissor</a></h1>
+
+    <div class="results">
+        <div class="wins">Wins: <div id="wins">0</div></div>
+        <div class="losses">Losses: <div id="losses">0</div></div>
+        <div class="draws">Draws: <div id="draws">0</div></div>
+    </div>
+
+    <div class="choices">
+        <p class="weapon"><strong>Choose Your Weapon!</strong></p>
+        <button onclick="game2()" id="Rock" class="rock" value="rock">Rock</button>
+        <button onclick="game3()" id="Paper" class="paper" value="paper">Paper</button>
+        <button onclick="game1()" id="Scissor" class="scissor" value="scissor">Scissor</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
